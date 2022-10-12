@@ -47,7 +47,7 @@ header p{
 
 aside{
     float: left; /*Acomadar aside a la izq con el contenido principal*/
-    width: 200px;
+    width: 250px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-left: 25px;
     margin-right: 0%;
@@ -58,7 +58,7 @@ aside{
     font-size: 30px;
 }
 
- h2{
+h2{
     color: #488000;
     font-size: 20px;
 }
@@ -78,18 +78,32 @@ p{
 #Articulo{
     float: right; /*Acomadar conntenido a la derec con el aside*/
     width: 600px;
-    padding-right: 25px;
+    padding-right: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-left: 0%;
 }
-#Articulo h2{
-    margin-top: 50px;
-}
+
 
 #Articulo img{
     position: relative;
     float: left;
     padding-right: 15px;
-    height: 410px;
+    width: 210px;
+    height: 350px;
+}
+
+footer{
+    background-color: #488000;
+    width: 880px;
+    margin: 0 auto;
+    display: flex; /*Contenido se ajuste al footer*/
+    height: 35px;
+    justify-content: center;/* Centrar contenido*/
+}
+
+footer a{
+    color: #fff;
+    border-right: 1px solid #fff;
+    padding: 5px 15px;
 }
 
