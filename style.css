@@ -1,0 +1,95 @@
+body{
+    background-image: url('images/background.png');
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 100%;
+}
+
+#Contenido{
+    background-color: #fff;
+    width: 920px;
+    margin: 0 auto;
+    height: 1000px;
+    padding-top: 3px;
+}
+
+header{
+    background-image: url('images/banner.jpg');
+    height: 250px;
+    width: 880px;
+    margin: auto;
+}
+
+header p{
+    color: forestgreen;
+    font-size: 60px;
+    padding-top: 30px; 
+    padding-left: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#Barra{
+    display: flex; /*  Ajusta el contenido a la barra*/
+    background-color: #488000;
+    margin: auto; /* Centra la barra ancho*/
+    width: 880px;
+    height: 35px;
+}
+
+#Barra div a{
+    float: left; /*  Ajusta el contenido a la barra*/
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    border-right: 1px solid #fff;
+    padding: 10px 15px; /*Margenes entre los textos*/
+}
+
+aside{
+    float: left; /*Acomadar aside a la izq con el contenido principal*/
+    width: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 25px;
+    margin-right: 0%;
+}
+
+.Titulo{
+    color: navy;
+    font-size: 30px;
+}
+
+ h2{
+    color: #488000;
+    font-size: 20px;
+}
+
+#Lateral img{
+    position: relative; /* Permite que el texto lo rodee*/
+    float: left; /* Permite que el texto lo rodee*/
+    padding: 5px; /* Espacio entre imagen texto*/
+}
+
+p{
+    text-align: justify; /*Texto justificado*/
+    color: navy;
+    line-height: 1.5em;
+}
+
+#Articulo{
+    float: right; /*Acomadar conntenido a la derec con el aside*/
+    width: 600px;
+    padding-right: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 0%;
+}
+#Articulo h2{
+    margin-top: 50px;
+}
+
+#Articulo img{
+    position: relative;
+    float: left;
+    padding-right: 15px;
+    height: 410px;
+}
+
