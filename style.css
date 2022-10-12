@@ -1,5 +1,6 @@
 body{
     background: #fff url('images/background.png') ;
+    background-size: contain;/* Expande la inmagen en y*/
 }
 
 #Contenido{
